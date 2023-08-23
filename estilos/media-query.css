@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*PALETA DE CORES ESTILO MONOCROMÁTICO
+
+--corA: #66000C;
+--corB: #EA4659;
+--corC: #E50019; PRINCIPAL
+--corD: #661F27;
+--corE: #B30015;
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: url(../imagens/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
