@@ -1,80 +1,41 @@
 @charset "UTF-8";
 
 /*PALETA DE CORES ESTILO MONOCROMÁTICO
-
 --corA: #66000C;
 --corB: #EA4659;
 --corC: #E50019; PRINCIPAL
 --corD: #661F27;
 --corE: #B30015;
-
 */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-}
+/*TYPICAL DEVIDE BREAKPOINTS
+Pequenas Telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Telas Grandes: Acima de 1200px
+*/
 
-body {
-    background-image: url(../imagens/capa.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background-image: linear-gradient(to top, var(--corB), var(--corD));
+    }
+    
+    section#login {
+        width: 80vw;
+        height: 65vh;
+    }
 
-main {
-    height: 100vh;
-    width: 100vw;
-}
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
 
-section#login {
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.452);
-    width: 50vw;
-    height: 50vh;
-    border-radius: 2em;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    box-shadow: 0px 0px 10px rgba(231, 210, 210, 0.534) ;
-}
-
-#formulario h1{
-    color: rgba(229, 0, 27, 0.678);
-    margin-top: 5%;
-    margin-left: 5%;
-}
-
-#formulario p{
-    color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
-}
-
-#formulario label{
-    color: black;
-    margin-top: 4%;
-    margin-left: 4%;
-}
-
-#formulario input{
-    color: black;
-    margin-top: 2px;
-    margin-left: 2px;
-}
-
-#rodape {
-    position: absolute;
-    width: 200px;
-    bottom: 1px;
-    left: 50%;
-    transform: translate(-50%);
-    margin: auto;
-    align-items: center;
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
 }
