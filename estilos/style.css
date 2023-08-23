@@ -62,6 +62,10 @@ section#login {
     transition-timing-function: ease;
 }
 
+section#login:hover {
+    border: 1px solid rgba(255, 255, 255, 0.829);
+}
+
 section#login > div#imagem {
     display: block;
 }
