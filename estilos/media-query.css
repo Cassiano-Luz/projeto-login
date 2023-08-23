@@ -33,6 +33,14 @@ Telas Grandes: Acima de 1200px
         height: 100%;
     }
 
+    div#imagem > div#logo {
+        width: 22vw;
+        height: 22vh;
+        left: 5%;
+        top: 73%;
+        opacity: 100%;
+    }
+
     section#login > div#formulario {
         float: left;
         width: 50%;
