@@ -43,8 +43,8 @@ div#imagem > div#logo {
     background-repeat: no-repeat;
     width: 19vw;
     height: 19vh;
-    left: 10px;
-    top: 12px;
+    left: 4%;
+    top: -3%;
 }
 
 section#login {
