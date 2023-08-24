@@ -51,7 +51,7 @@ section#login {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.452);
     width: 65vw;
-    height: 50vh;
+    height: 65vh;
     border-radius: 2em;
     top: 50%;
     left: 50%;
@@ -77,28 +77,22 @@ section#login > div#formulario {
 }
 
 #formulario h1 {
-    color: var(--corC);
-    margin-top: 5%;
-    margin-left: 5%;
+    text-align: center;
+    color: var(--corD);
 }
 
 #formulario p {
+    text-align: center;
+    font-size: 0.8em;
     color: black;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 5%;
 }
 
 #formulario label {
     color: black;
-    margin-top: 4%;
-    margin-left: 4%;
 }
 
 #formulario input {
     color: black;
-    margin-top: 2px;
-    margin-left: 2px;
 }
 
 #rodape {

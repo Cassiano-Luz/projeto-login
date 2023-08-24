@@ -57,17 +57,20 @@ Telas Grandes: Acima de 1200px
     }
     
     section#login {
-        width: 40vw;
-        height: 40vh;
+        width: 60vw;
+        height: 50vh;
     }
 
     section#login > div#imagem {
         display: none;
     }
 
-    section#login > div#formulario {
-        float: left;
-        width: 50%;
-        height: 100%;
+    #formulario h1 {
+        text-align: center;
+        font-size: 2em;
+    }
+
+    #formulario p {
+        font-size: 1.2em;
     }
 }
