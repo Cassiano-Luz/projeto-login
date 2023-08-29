@@ -17,6 +17,7 @@ Telas Grandes: Acima de 1200px
 */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /*CONFIGURAÇÃO TABLET*/
     
     body {
         background-image: linear-gradient(to top, var(--corB), var(--corD));
@@ -44,9 +45,18 @@ Telas Grandes: Acima de 1200px
         width: 50%;
         height: 100%;
     }
+
+    form > input[type=submit]{
+        margin-top: 14px;
+    }
+
+    form > a {
+        margin-top: 14px;
+    }
 }
 
 @media screen and (min-width: 992px) {
+    /*CONFIGURAÇÃO TELAS GRANDES*/
     
     body {
         background-image: url(../imagens/capa.jpg);
@@ -57,8 +67,8 @@ Telas Grandes: Acima de 1200px
     }
     
     section#login {
-        width: 60vw;
-        height: 50vh;
+        width: 40vw;
+        height: 40vh;
     }
 
     section#login > div#imagem {
@@ -72,5 +82,20 @@ Telas Grandes: Acima de 1200px
 
     #formulario p {
         font-size: 1.2em;
+    }
+
+    #iuser, #ipass{
+        width: 250px;
+        height: 25px;
+    }
+
+    form > input[type=submit]{
+        margin-top: 14px;
+        width: 286px;
+    }
+
+    form > a {
+        width: 286px;
+        margin-top: 14px;
     }
 }
