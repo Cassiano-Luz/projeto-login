@@ -60,6 +60,7 @@ section#login {
     overflow: hidden;
     transition: width .15s, height .15s;
     transition-timing-function: ease;
+    text-align: center;
 }
 
 section#login:hover {
@@ -68,6 +69,7 @@ section#login:hover {
 
 section#login > div#imagem {
     display: block;
+    height: 35%;
 }
 
 
@@ -85,17 +87,72 @@ section#login > div#formulario {
     text-align: center;
     font-size: 0.8em;
     color: black;
+    margin-top: 8px;
 }
 
 #formulario label {
     color: black;
 }
 
-#formulario input {
-    color: black;
+#iuser, #ipass{
+    width: 90%;
+    height: 25px;
+}
+
+.campo{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+.campo > label{
+    display: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 65%;
+    height: 40px;
+    margin-top: 8px;
+    background-color: var(--corB);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color: var(--corA);
+    color: white;
+}
+
+form > a {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin: 0 auto;
+    width: 65%;
+    height: 40px;
+    margin-top: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--corA);
+    border: 1px solid var(--corA);
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+form > a:hover {
+    background-color: var(--corA);
+    color: white;
+    text-decoration: underline;
 }
 
 #rodape {
-    position: absolute;
-    bottom: 1px;
+    margin: 0 auto;
+    width: 50vw;
+    
 }
